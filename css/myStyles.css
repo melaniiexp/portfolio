@@ -1,0 +1,931 @@
+@font-face {
+    font-family: signatra;
+    src: url(../css/fonts/signatra.ttf);
+    
+}
+
+@font-face {
+    font-family: hestina;
+    src: url(../css/fonts/hestina.otf);
+    
+}
+
+@font-face {
+    font-family: pilsen;
+    src: url(../css/fonts/pilsen.ttf);
+    
+}
+
+@font-face {
+    font-family: naturebeauty;
+    src: url(../css/fonts/naturebeauty.ttf);
+    
+}
+
+
+.col1 {
+	background: #5c7080;
+}
+.col2 {
+	background: #6BC0FF;
+}
+.col3 {
+	background: #398C69;
+}
+.col4 {
+	background: #7DB077;
+}
+
+/* navbar */
+.navbar-brand {
+  padding-top: 20px;
+  padding-left: 430px;
+}
+
+.nav-item {
+    text-transform: uppercase;
+    font-family: 'cabin', sans-serif;
+    padding-left: 50px;
+   
+   
+}
+
+.nav-item h5:hover {
+    color: #1cb9cd;
+}
+
+
+/* parallax landing */
+
+
+#multi-background {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  background-image:      
+    
+                    url(../css/Images/landing/wave-1.png),
+                    url(../css/Images/landing/wave-2.png),
+                    url(../css/Images/landing/wave-3.png),
+                    url(../css/Images/landing/boat-2.png),
+                    url(../css/Images/landing/wave-4.png),
+                    url(../css/Images/landing/boat-3.png),
+                    url(../css/Images/landing/wave-5.png),
+                    url(../css/Images/landing/boat-4.png),
+                    url(../css/Images/landing/wave-6.png),
+                    url(../css/Images/landing/boat-1.png),
+                    url(../css/Images/landing/wave-7.png),
+                    url(../css/Images/landing/boat-5.png),
+                    url(../css/Images/landing/boat-6.png),
+                    url(../css/Images/landing/wave-8.png),
+                    url(../css/Images/landing/bottom-cloud-blue-1.png),
+                    url(../css/Images/landing/bottom-cloud-white-1.png),
+                    url(../css/Images/landing/bottom-cloud-blue-2.png),
+                    url(../css/Images/landing/bottom-cloud-white-2.png),
+                    url(../css/Images/landing/small-cloud-sky.png),
+                    url(../css/Images/landing/big-cloud-sky.png);
+
+      
+  background-size: auto 100%;
+  animation: multi-background linear 300s infinite;
+}
+
+@keyframes multi-background {
+  from {
+    background-position: 0px 0px,
+                         0px 0px,
+                         0px 0px,
+                         0px 0px,
+                         0px 0px;
+  }
+  to {
+    background-position: 7800px 
+        0px,
+                         6500px 0px,
+                         5200px 0px,
+                         3900px 0px,
+                         2600px 0px;
+  }
+    
+    }
+
+
+/* nav bar */
+
+.navbar {
+   text-align: center;
+}
+
+h1 {
+        position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0 20px;
+    font-size: 130px;
+    color: #ff0002;
+    font-family: 'hestina', cursive;
+    font-style: normal;
+    font-weight: lighter;
+    text-align: center;
+}
+
+h2 {
+        position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0 20px;
+    font-size: 25px;
+    color: #ff0002;
+    font-family: 'cabin', sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    text-align: center;
+}
+
+/* about me */
+
+.col-sm-5 img {
+    height: 500px;
+    width: 500px;
+
+    
+}
+
+.col-sm-5 {
+    padding-top: 50px;
+    padding-left: 200px;
+}
+
+.col-sm-7 h3 {
+    
+    padding-top: 100px;
+    padding-left: 0px;
+    padding-right: 100px;
+    
+}
+
+.col-sm-7 p {
+    
+    padding-top: 10px;
+    padding-left: 0px;
+    font-family: 'cabin', sans-serif;
+    font-size: 18px;
+    padding-right: 100px;
+    
+}
+
+h3 {
+    font-size: 35px;
+    color: black;
+    font-family: 'ledger', serif;
+    font-style: normal;
+    
+}
+
+/* personality pie chart */
+
+.personality {
+    
+    padding-top: 50px;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin-top: 50px;
+    height: 430px;
+}
+
+h4 {
+    font-family: 'cabin', sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
+
+.personality .container {
+    position: absolute;
+    padding-top: 300px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 1200px;
+    
+}
+
+.personality .container .box {
+    width: 30%;
+    float: left;
+    
+}
+
+.container .box h5 {
+    padding-left: 90px;
+    padding-top: 100px;
+    color: black;
+    text-transform: uppercase;
+    font-family: cabin, sans-serif;
+    font-size: 20px;
+}
+
+.container .box h6 {
+    padding-left: 90px;
+    padding-top: 100px;
+    color: black;
+    text-transform: uppercase;
+    font-family: cabin, sans-serif;
+    font-size: 20px;
+}
+
+
+.leader {
+      color: black;
+    text-transform: uppercase;
+    font-family: cabin, sans-serif;
+    font-size: 20px;
+    padding-top: 95px;
+    padding-left: 100px;
+}
+
+.container .box .chart {
+    position: relative;
+    width: 110px;
+    height: 110px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 50px;
+    line-height: 110px;
+    color: black;
+
+}
+
+.chart  {
+    padding-left: 50px;
+    padding-top: 45px;
+}
+
+.container .box canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 200px;
+    align-content: center;
+    
+}
+
+
+/* skills bar graph */
+
+.skills {
+    
+    padding-top: 70px;
+    
+}
+
+.skills .row {
+    width: 200%;
+    align-content: center;
+	padding-top: 20px;
+}
+
+.skills .col1 {
+  background-color: white;
+    padding-left: 120px;
+
+}
+
+.row .col2 {
+  background-color: white;
+   padding-left: 350px;
+}
+
+.skills .col3 {
+  background-color: white;
+    padding-left: 350px;
+    width: 14%;
+
+}
+
+
+#skills1 {
+    padding-left: 200px;
+    padding-top: 350px;
+}
+
+.skillbar {
+    margin-bottom: 34px;
+    position: relative;
+    width: 250%;
+    display: block;
+    padding-left: 105px;
+}
+
+
+.skillbar .skillbar-title {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.skillbar .skillbar-percent {
+    float: right;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.skillbar-bar {
+    background-color: lightgrey;
+    width: 100%;
+    height: 5px
+}
+
+/* skill bar graph column 1  */
+
+.skillbar-bar .photoshop {
+    width: 90%;
+    background-color: red;
+    height: 5px;
+    animation: photoshop 50s;
+}
+
+.skillbar-bar .indesign {
+    width: 90%;
+    background-color: red;
+    height: 5px;
+    animation: indesign 50s
+}
+
+.skillbar-bar .illustrator {
+    width: 78%;
+    background-color: red;
+    height: 5px;
+    animation: illustrator 50s
+}
+
+.skillbar-bar .lightroom {
+    width: 98%;
+    background-color: red;
+    height: 5px;
+    animation: lightroom 50s
+}
+
+.skillbar-bar .adobespark {
+    width: 93%;
+    background-color: red;
+    height: 5px;
+    animation: adobespark 50s
+}
+
+/* skill bar graph column 2  */
+
+.skillbar-bar .premiere {
+    width: 95%;
+    background-color: red;
+    height: 5px;
+    animation: premiere 50s
+}
+
+.skillbar-bar .aftereffects {
+    width: 75%;
+    background-color: red;
+    height: 5px;
+    animation: aftereffects 50s
+}
+
+.skillbar-bar .muse {
+    width: 68%;
+    background-color: red;
+    height: 5px;
+    animation: muse 50s
+}
+
+.skillbar-bar .animate {
+    width: 55%;
+    background-color: red;
+    height: 5px;
+    animation: animate 50s
+}
+
+.skillbar-bar .vray {
+    width: 80%;
+    background-color: red;
+    height: 5px;
+    animation: vray 50s
+}
+
+/* skill bar graph column 2  */
+
+.skillbar-bar .htmlcss {
+    width: 75%;
+    background-color: red;
+    height: 5px;
+    animation: htmlcss 50s
+}
+
+.skillbar-bar .sketch{
+    width: 85%;
+    background-color: red;
+    height: 5px;
+    animation: sketch 50s
+}
+
+.skillbar-bar .revit {
+    width: 78%;
+    background-color: red;
+    height: 5px;
+    animation: revit 50s
+}
+
+.skillbar-bar .autocad {
+    width: 75%;
+    background-color: red;
+    height: 5px;
+    animation: autocad 50s
+}
+
+.skillbar-bar .sketchup {
+    width: 90%;
+    background-color: red;
+    height: 5px;
+    animation: sketchup 50s
+}
+
+/* skill bar graph column 1 - animations  */
+
+@keyframes photoshop {
+    0% {
+        width: 0%
+    }
+    
+    100% {
+        width: 90%
+    }
+}
+
+@keyframes indesign {
+    0% {
+        width: 0%
+    }
+    
+    100% {
+        width: 95%
+    }
+}
+
+@keyframes illustrator {
+    0% {
+        width: 0%
+    }
+    
+    100% {
+        width: 78%
+    }
+}
+
+@keyframes lightroom {
+    0% {
+        width: 0%
+    }
+    
+    100% {
+        width: 98%
+    }
+}
+
+@keyframes adobespark {
+    0% {
+        width: 0%
+    }
+    
+    100% {
+        width: 93%
+    }
+}
+
+/* skill bar graph column 2 - animations  */
+
+@keyframes premiere {
+    0% {
+        width: 0%
+    }
+    
+    100% {
+        width: 95%
+    }
+}
+
+@keyframes aftereffects {
+    0% {
+        width: 0%
+    }
+    
+    100% {
+        width: 75%
+    }
+}
+
+@keyframes muse {
+    0% {
+        width: 0%
+    }
+    
+    100% {
+        width: 68%
+    }
+}
+
+@keyframes animate {
+    0% {
+        width: 0%
+    }
+    
+    100% {
+        width: 55%
+    }
+}
+
+@keyframes vray {
+    0% {
+        width: 0%
+    }
+    
+    100% {
+        width: 80%
+    }
+}
+
+/* skill bar graph column 3 - animations  */
+
+@keyframes htmlcss {
+    0% {
+        width: 0%
+    }
+    
+    100% {
+        width: 75%
+    }
+}
+
+@keyframes sketch {
+    0% {
+        width: 0%
+    }
+    
+    100% {
+        width: 85%
+    }
+}
+
+@keyframes revit{
+    0% {
+        width: 0%
+    }
+    
+    100% {
+        width: 78%
+    }
+}
+
+@keyframes autocad {
+    0% {
+        width: 0%
+    }
+    
+    100% {
+        width: 75%
+    }
+}
+
+@keyframes sketchup {
+    0% {
+        width: 0%
+    }
+    
+    100% {
+        width: 90%
+    }
+}
+
+
+
+/* page break */
+
+.pagebreak {
+    background-color: #1cb9cd;
+    height: 200px;
+    padding-top: 60px;
+    margin-top: 60px;
+    
+}
+
+.pagebreak h3 {
+    text-align: center;
+    color: white;
+    
+}
+
+.pagebreak h4 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+/* services carousel*/
+
+.services {
+    padding-top: 60px;
+    padding-bottom: 90px;
+}
+
+.services .container {
+    padding-top: 30px;
+}
+
+.services h5 {
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.services h5:hover {
+    color: #ff0002;
+}
+
+.services p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.services img {
+    width: 30%;
+    height: 30%;
+    margin-left: 90px;
+    -webkit-transform: all ease 0.3s;
+    -moz-transform: all ease 0.3s;
+    -ms-transform: all ease 0.3s;
+    -o-transform: all ease 0.3s;
+    transform: all ease 0.3s;
+}
+
+.services img:hover {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+/* services carousel css */
+
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+   
+
+}
+
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    
+}
+
+.blog .carousel-indicators .active {
+background: #ff0002;
+    
+}
+
+city: 1;
+  }
+
+
+/* portfolio gallery */
+
+.portfolio {
+    bottom: 50px;
+}
+
+.portfolio .space {
+	padding-top: 30px;
+}
+
+.portfolio .column {
+  float: left;
+  width: 530px;
+    height: 530px;
+    background-color: red;
+}
+
+.portfolio .row img {
+     width: 100%;
+     height: 100%;
+}
+
+/* Clear floats after the columns */
+.portfolio .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row img:hover {
+    color: black;
+}
+
+/* testimonia carousel*/
+
+.testimonial {
+    padding-top: 60px;
+    padding-bottom: 90px;
+}
+
+.testimonial .container {
+    padding-top: 30px;
+}
+
+.testimonial h5 {
+    
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.testimonial h5:hover {
+    color: #ff0002;
+}
+
+.testimonial p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.testimonial img {
+    width: 20%;
+    height: 20%;
+    margin-left: 140px;
+
+}
+
+.testimonial .carousel-inner {
+    align-content: center;
+}
+
+
+/* page break2 */
+
+.pagebreak2 {
+    background-color: #1cb9cd;
+    height: 200px;
+    padding-top: 60px;
+    margin-top: 90px;
+    
+}
+
+
+
+.pagebreak2 h4 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    
+    
+}
+
+.pagebreak2 h3 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+
+    
+    
+}
+
+/* contact */
+.contact {
+    padding-top: 60px;
+    padding-bottom: 50px;
+    background-color: #f4f4f4;
+ 
+}
+
+
+.contact img {
+    height: 70px;
+    width: 70px;
+
+}
+
+.contact h5 {
+    padding-left: 90px;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+.contact h5:hover {
+    color: #1cb9cd;
+}
+
+/* built */	
+
+.built {
+    padding-bottom: 50px;
+
+    
+}
+
+.built img {
+    height: 60px;
+    width: 60px;
+	margin-left: 60px;
+	
+
+}
+
+
+.built h5:hover {
+    color: #1cb9cd;
+}
+
+.built h4 {
+	padding-bottom: 30px;
+	margin-top: -30px;
+}
+
+
+
+
+/* home */
+.home img{
+   height: 60px;
+   width: 60px;
+  margin-left: 1040px;
+    margin-top: -90px;
+	margin-top:  30px;
+
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
